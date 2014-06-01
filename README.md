@@ -1,3 +1,5 @@
+vagrant-test
+============
 # Ping the vagrant box
 
 ```
