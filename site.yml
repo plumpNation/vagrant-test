@@ -1,0 +1,4 @@
+- hosts: vagrant
+  tasks:
+    - name: test connection
+      ping:

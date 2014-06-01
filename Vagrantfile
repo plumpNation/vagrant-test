@@ -81,8 +81,11 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   # Enable provisioning with ansible
   config.vm.provision :ansible do |ansible|
-      ansible.playbook = "private/ansible/site.yml"
-      ansible.inventory_path = "private/ansible/hosts"
+      ansible.playbook = "site.yml"
+      ansible.inventory_path = "hosts"
+
+      # After a breaking change in Vagrant 1.5 we must add
+      ansible.limit = 'all'
   end
 
   # Enable provisioning with chef solo, specifying a cookbooks path, roles
