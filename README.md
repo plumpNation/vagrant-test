@@ -51,3 +51,4 @@ Add ```nocows=1``` to turn off the cowsay output.
 ## Reading materials
 
 * [Greate first tutorial](http://jamesdacosta.com/first-steps-with-vagrant-ansible-and-aws/)
+* [Installing nodejs from Ubuntu ppa](http://www.geedew.com/2014/02/15/working-with-ansible/)
